@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Ecoturismo Cudinamarca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="site-header home">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <alt="Logo Ecoturismo">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html"style="color:#FF0000;">Nosotros</a>
+                    <a href="anuncios.html"style="color:#FF0000;">Anuncios</a>
+                    <a href="blog.html"style="color:#FF0000;">Blog</a>
+                    <a href="contacto.html"style="color:#FF0000;">Contacto</a>
+                </nav>
+            </div>
+            <!--barra-->
+            <h1 style="color:#FF0099">Actividades De Ecoturismo En Cundinamarca</h1>
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <section class="contenedor">
+        <h2 class="fw-300 centrar-texto">Conoce Más Sobre Nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <div class="iconos">
+                <img src="/img/icono1.svg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Es fundamental la seguridad en actividades y escenarios recreativos, siempre contar con un amplio beneficio en los temas de seguridad en las diferentes actividades, respaldo permanente con aseguradoras</p>
+            </div>
+
+            <div class="iconos">
+                <img src="/img/icono2.svg" alt="Icono Mejor Precio">
+                <h3>El Mejor Precio</h3>
+                <p>Las actividades realizadas cuentan con un gran beneficio en lo referente a costos y gastos, es importante el factor de gastos e inversion siempre buscando el beneficio personal y familiar en las actividades</p>
+            </div>
+
+            <div class="iconos">
+                <img src="/img/icono3.svg" alt="Icono tiempo">
+                <h3>A Tiempo</h3>
+                <p>Programamos las actividades entendiendo la importancia del factor tiempo en cada momento, la puntualidad es importante al aprovechar el tiempo en la diferentes actividades realizadas en cada evento segun agenda</p>
+            </div>
+        </div>
+
+    </section>
+
+    <main class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Escenarios y Actividades Turisticas</h2>
+
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="/img/anuncio1.jpg" alt="Casa en Lago">
+                <div class="contenido-anuncio">
+                    <h3>Tren Turistico Sabana</h3>
+                    <p>Disfruta del paisaje de la Sabana de Bogotá, viaja utilizand el Tren Turistico</p>
+                    <p class="precio">$73.000</p>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Información Adicional</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="/img/anuncio2.jpg" alt="Casa terminados lujo">
+                <div class="contenido-anuncio">
+                    <h3>Catedral de Sal Zipaquira</h3>
+                    <p>La Catedral de Sal de zipaquira es un recinto construido en el interior de las minas de sal</p>
+                    <p class="precio">$72.000</p>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Información Adicional</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="/img/anuncio3.jpg" alt="Casa alberca">
+                <div class="contenido-anuncio">
+                    <h3>Piedras Del Tunjo</h3>
+                    <p>denominado por su historia, como el Cercado de los Zipas o el Santuario de la rana</p>
+                    <p class="precio">$31.000</p>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Información Adicional</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todas">
+            <a href="anuncios.html" class="boton boton-verde">Ver todas</a>
+        </div>
+    </main>
+
+    <section class="imagen-contacto">
+        <div class="contenedor contenido-contacto">
+            <h2>Encuentra la actividad Ecoturistica de tus sueños</h2>
+            <p>Llena el formulario de contacto y un asesor se comunicará contigo a la brevedad</p>
+            <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
+        </div>
+    </section>
+    <!--BLOG-->
+    <div class="seccion-inferior contenedor">
+        <section class="blog">
+            <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
+
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="/img/blog1.jpg" alt="Blog post 1">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Escenarios turisticos club ecologico</h4>
+                    </a>
+                    <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
+                    <p>Consejos para un descanso adecuado, disfrutar del medio ambiente alejado de la ciudad</p>
+                </div>
+            </article>
+
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="/img/blog2.jpg" alt="Blog post 2">
+                </div>
+                <div class="texto-entrada">
+                    <a href="entrada.html">
+                        <h4>Guía para actividad dia acuatico</h4>
+                    </a>
+                    <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
+                    <p>Maximiza tu descanso, aprovechando al maximo actividades de piscina en diferentes centros vacacionales</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="testimoniales">
+            <h3 class="centrar-texto fw-300">Testimonios</h3>
+            <div class="testimonial">
+
+                <blockquote>
+                    El personal se comportó de manera excelente, muy buena atención y me asesoraron bien para encontrar la actividad que cumple con mis expectativas. Definitivamente es un servicio que recomiendo.
+                </blockquote>
+                <p>- Jose Gonzalez M.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a target="_blank" href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <p class="copyright">Todos los derechos reservados 2024 © WebMaster Jimmy Rincon Ortiz</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
